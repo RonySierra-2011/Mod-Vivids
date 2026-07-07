@@ -24,7 +24,7 @@ public class VividBathEntity extends VividEntity {
     }
 
     @Override
-    protected boolean isTameFood(ItemStack stack) {
-        return stack.is(ModItems.SOAPY_FOAM.get());
+    protected net.minecraft.world.item.Item getTameFoodItem() {
+        return ModItems.SOAPY_FOAM.get();
     }
 }

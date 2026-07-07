@@ -6,16 +6,12 @@ import com.vivids.mod.registry.ModItems;
 import com.vivids.mod.registry.ModMenus;
 import com.vivids.mod.registry.ModSounds;
 import com.vivids.mod.registry.ModBlocks;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.registries.RegisterEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

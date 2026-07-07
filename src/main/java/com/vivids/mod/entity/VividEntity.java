@@ -68,7 +68,7 @@ public class VividEntity extends Animal {
         this.goalSelector.addGoal(1, new FloatGoal(this));
         this.goalSelector.addGoal(2, new PanicGoal(this, 1.6D));
         this.goalSelector.addGoal(3, new BreedGoal(this, 1.0D));
-        this.goalSelector.addGoal(4, new TemptGoal(this, 1.15D, itemStack -> isTameFood(itemStack), false));
+        this.goalSelector.addGoal(4, new TemptGoal(this, 1.15D, net.minecraft.world.item.crafting.Ingredient.of(getTameFoodItem()), false));
         this.goalSelector.addGoal(5, new FollowParentGoal(this, 1.1D));
         this.goalSelector.addGoal(6, new WaterAvoidingRandomStrollGoal(this, 1.0D));
         this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, Player.class, 6.0F));
@@ -77,7 +77,12 @@ public class VividEntity extends Animal {
 
     /** Comida usada para domesticar/tentar a esta variante. Sobreescribible por subclases. */
     protected boolean isTameFood(ItemStack stack) {
-        return stack.is(ModItems.VIVID_FOOD.get());
+        return stack.is(getTameFoodItem());
+    }
+
+    /** Item exacto de domesticacion, usado por TemptGoal e isTameFood(). Sobreescribible. */
+    protected net.minecraft.world.item.Item getTameFoodItem() {
+        return ModItems.VIVID_FOOD.get();
     }
 
     public boolean isSitting() {

@@ -65,7 +65,9 @@ public class VividBossEntity extends Animal implements Enemy {
     }
 
     @Override
-    public boolean canBreed() { return false; }
+    public boolean canMate(net.minecraft.world.entity.animal.Animal otherAnimal) {
+        return false;
+    }
 
     @Override
     public net.minecraft.world.entity.AgeableMob getBreedOffspring(net.minecraft.server.level.ServerLevel level, net.minecraft.world.entity.AgeableMob other) {

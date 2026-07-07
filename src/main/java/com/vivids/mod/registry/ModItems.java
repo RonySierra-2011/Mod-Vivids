@@ -62,28 +62,28 @@ public class ModItems {
 
     // ---- Spawn eggs (para pruebas/creativo) ----
     public static final RegistryObject<Item> VIVID_SPAWN_EGG = ITEMS.register("vivid_spawn_egg",
-            () -> new net.minecraft.world.item.ForgeSpawnEggItem(ModEntities.VIVID,
+            () -> new net.minecraftforge.common.ForgeSpawnEggItem(ModEntities.VIVID,
                     0x8ecae6, 0xffffff, new Item.Properties()));
 
     public static final RegistryObject<Item> VIVID_BATH_SPAWN_EGG = ITEMS.register("vivid_bath_spawn_egg",
-            () -> new net.minecraft.world.item.ForgeSpawnEggItem(ModEntities.VIVID_BATH,
+            () -> new net.minecraftforge.common.ForgeSpawnEggItem(ModEntities.VIVID_BATH,
                     0x9be564, 0xffffff, new Item.Properties()));
 
     // ---- Spawn eggs de los 4 jefes (para pruebas en creativo, ya que su
     // aparicion natural es extremadamente rara por diseño) ----
     public static final RegistryObject<Item> REY_VIVID_SPAWN_EGG = ITEMS.register("rey_vivid_spawn_egg",
-            () -> new net.minecraft.world.item.ForgeSpawnEggItem(ModEntities.REY_VIVID,
+            () -> new net.minecraftforge.common.ForgeSpawnEggItem(ModEntities.REY_VIVID,
                     0xffd700, 0x8ecae6, new Item.Properties()));
 
     public static final RegistryObject<Item> GUARDIAN_VIVID_SPAWN_EGG = ITEMS.register("guardian_vivid_spawn_egg",
-            () -> new net.minecraft.world.item.ForgeSpawnEggItem(ModEntities.GUARDIAN_VIVID,
+            () -> new net.minecraftforge.common.ForgeSpawnEggItem(ModEntities.GUARDIAN_VIVID,
                     0x4b6f44, 0x8ecae6, new Item.Properties()));
 
     public static final RegistryObject<Item> DUQUE_JABONOSO_SPAWN_EGG = ITEMS.register("duque_jabonoso_spawn_egg",
-            () -> new net.minecraft.world.item.ForgeSpawnEggItem(ModEntities.DUQUE_JABONOSO,
+            () -> new net.minecraftforge.common.ForgeSpawnEggItem(ModEntities.DUQUE_JABONOSO,
                     0x4fa8e0, 0xffffff, new Item.Properties()));
 
     public static final RegistryObject<Item> LIMPIADOR_SUPREMO_SPAWN_EGG = ITEMS.register("limpiador_supremo_spawn_egg",
-            () -> new net.minecraft.world.item.ForgeSpawnEggItem(ModEntities.LIMPIADOR_SUPREMO,
+            () -> new net.minecraftforge.common.ForgeSpawnEggItem(ModEntities.LIMPIADOR_SUPREMO,
                     0xffffff, 0x4fa8e0, new Item.Properties()));
 }

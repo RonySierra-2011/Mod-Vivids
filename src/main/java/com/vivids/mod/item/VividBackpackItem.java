@@ -36,5 +36,3 @@ public class VividBackpackItem extends Item {
         return InteractionResultHolder.sidedSuccess(stack, level.isClientSide);
     }
 }
-EOF
-

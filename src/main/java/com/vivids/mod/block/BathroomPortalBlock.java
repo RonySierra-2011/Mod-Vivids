@@ -68,7 +68,7 @@ public class BathroomPortalBlock extends Block {
             return;
         }
 
-        boolean goingToBathroom = currentLevel.dimension() != bathroomKey;
+        boolean goingToBathroom = !currentLevel.dimension().equals(bathroomKey);
         ServerLevel destination = goingToBathroom ? target : server.overworld();
 
         BlockPos destPos = goingToBathroom
