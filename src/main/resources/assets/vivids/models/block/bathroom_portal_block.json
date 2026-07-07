@@ -1,0 +1,4 @@
+{
+  "parent": "block/cube_all",
+  "textures": { "all": "vivids:block/bathroom_portal_block" }
+}

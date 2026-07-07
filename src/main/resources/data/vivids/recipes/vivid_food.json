@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BAC",
+    " A "
+  ],
+  "key": {
+    "A": { "item": "minecraft:wheat" },
+    "B": { "item": "minecraft:carrot" },
+    "C": { "item": "minecraft:golden_apple" }
+  },
+  "result": { "item": "vivids:vivid_food", "count": 4 }
+}

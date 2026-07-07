@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:white_wool" },
+    "B": { "item": "minecraft:water_bucket" }
+  },
+  "result": { "item": "vivids:soapy_foam", "count": 2 }
+}

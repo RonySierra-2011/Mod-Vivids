@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "vivids:bathroom_ray" } ] },
+    { "rolls": 2, "entries": [ { "type": "minecraft:item", "name": "vivids:vivid_bubble" } ] }
+  ]
+}

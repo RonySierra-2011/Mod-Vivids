@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "vivids:vivid_bubble", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": { "min": 0, "max": 1 },
+      "entries": [
+        { "type": "minecraft:item", "name": "vivids:soapy_foam", "weight": 1 }
+      ]
+    }
+  ]
+}

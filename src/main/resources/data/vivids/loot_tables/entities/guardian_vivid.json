@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "vivids:vivid_ray" } ] },
+    { "rolls": 2, "entries": [ { "type": "minecraft:item", "name": "vivids:vivid_fragment" } ] }
+  ]
+}

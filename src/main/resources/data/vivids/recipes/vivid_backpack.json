@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "vivids:vivid_cloth" },
+    "B": { "item": "minecraft:leather" },
+    "C": { "item": "minecraft:iron_ingot" }
+  },
+  "result": { "item": "vivids:vivid_backpack", "count": 1 }
+}

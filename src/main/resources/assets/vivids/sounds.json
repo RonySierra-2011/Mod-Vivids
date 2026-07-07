@@ -1,0 +1,26 @@
+{
+  "vivid_idle": {
+    "category": "neutral",
+    "sounds": [ { "name": "vivids:vivid_idle", "stream": false } ]
+  },
+  "vivid_hurt": {
+    "category": "neutral",
+    "sounds": [ { "name": "vivids:vivid_hurt", "stream": false } ]
+  },
+  "vivid_death": {
+    "category": "neutral",
+    "sounds": [ { "name": "vivids:vivid_death", "stream": false } ]
+  },
+  "vivid_greet": {
+    "category": "neutral",
+    "sounds": [ { "name": "vivids:vivid_greet", "stream": false } ]
+  },
+  "ray_shoot": {
+    "category": "player",
+    "sounds": [ { "name": "vivids:ray_shoot", "stream": false } ]
+  },
+  "ray_overheat": {
+    "category": "player",
+    "sounds": [ { "name": "vivids:ray_overheat", "stream": false } ]
+  }
+}
